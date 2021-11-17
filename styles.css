@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 14px;
+  background-image: url("images/bg-stars.svg"), linear-gradient(hsl(234, 17%, 12%), #2F2439);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1440px;
+  max-width: 100%;
+  height: 100vh;
+  overflow:hidden;
+}
+
+h1 {
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 8px;
+  font-size: 1.5rem;
+}
+
+h3 {
+  color: hsl(237, 18%, 59%);
+  letter-spacing: 5px;
+  font-size: 0.8rem;
+  padding-top: 5%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top:9%;
+  text-transform: uppercase;
+}
+
+/* Countdown Section */
+
+#countdown {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  max-width:100%;
+  margin-top:0;
+}
+#countdown div{
+  padding:3%;
+}
+
+#countdown p {
+  color: hsl(345, 95%, 68%);
+  background-color: hsl(236, 21%, 26%);
+  font-size: 5rem;
+  width: 100px;
+  height: 100px;
+  padding: 25px;
+  border-radius:0.5rem;
+  box-shadow: 0 12px 2px -2px hsl(234, 17%, 12%);
+  margin-bottom:2%;
+}
+
+#end {
+  margin-top: 40%;
+  font-size: 3rem;
+  color: #fff;
+}
+
+/* Footer Section */
+
+.hill {
+  position: absolute;
+  bottom:-5%;
+  width:100%;
+  height:30vh;
+}
+
+.social-icons {
+  text-align: center;
+  margin-bottom: 1%;
+  position: absolute;
+  top: 90%;
+  width: 100%;
+}
+
+.fab {
+  color: hsl(237, 18%, 59%);
+  padding-left:30px;
+}
+
+.fab:hover {
+  color: hsl(345, 95%, 68%);
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  position: absolute;
+  width:100%;
+  bottom:1%;
+  color: #fff;
+  text-align:center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Media queries */
+
+@media only screen and (max-width:500px) {
+  body{
+    background-size: cover;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 0.4rem;
+  }
+
+  main {
+    margin: 35% 10% 0;
+  }
+
+#countdown{
+  margin-top:5%;
+}
+  #countdown p {
+    font-size:2.5rem;
+    width:50px;
+    height:50px;
+    padding:10px;
+    box-shadow: 0 5px 2px -2px hsl(234, 17%, 12%);
+  }
+
+}
+
+
+@media only screen and (min-width:501px)and (max-width:768px){
+
+  h1 {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 0.5rem;
+  }
+
+  main {
+    margin: 20% 5% 0;
+  }
+
+  #countdown p {
+    font-size: 3.5rem;
+    width:75px;
+    height:75px;
+    box-shadow: 0 8px 2px -2px hsl(234, 17%, 12%);
+  }
+
+}
