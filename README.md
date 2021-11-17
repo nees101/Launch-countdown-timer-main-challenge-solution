@@ -27,8 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
+#### Desktop design
 ![](./FinalDesignScreenshots/Desktop-design.png)
+
+#### Mobile design
 ![](./FinalDesignScreenshots/Mobile-design.png)
+
+#### Active state
 ![](./FinalDesignScreenshots/Active-state.png)
 
 ### Links
