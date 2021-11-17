@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [@nees101/FrontendMentor](https://your-solution-url.com)
-- Live Site URL: [@nees101/github](https://your-live-site-url.com)
+- Solution URL: [@nees101/FrontendMentor](https://www.frontendmentor.io/solutions/responsive-launch-down-timer-using-css-and-javascript-IWzQJmmdJ)
+- Live Site URL: [@nees101/github](https://nees101.github.io/Launch-countdown-timer-main-challenge-solution/)
 
 ## My process
 
